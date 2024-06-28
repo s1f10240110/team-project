@@ -40,14 +40,29 @@ body {
     color: #FFFFFF;
     text-decoration: none;
   }  
-  .background-image {
-    background-image: url('https://itabashihanabi.jp/images/photo/2023/camera/01.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* ビューポートの高さを使いたい場合 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white; /* 背景に対して文字が見やすいように色を設定 */
+/* 文字クラスの定義 */
+.outlined-text {
+  color: white; /* 文字の色 */
+  text-shadow:
+      -1px -1px 0 #000,  /* 左上 */
+       1px -1px 0 #000,  /* 右上 */
+      -1px  1px 0 #000,  /* 左下 */
+       1px  1px 0 #000,  /* 右下 */
+       0px -1px 0 #000,  /* 上 */
+       0px  1px 0 #000,  /* 下 */
+      -1px  0px 0 #000,  /* 左 */
+       1px  0px 0 #000;  /* 右 */
+}
+
+/* 背景画像クラスの定義 */
+.background-image {
+  background-image: url('https://itabashihanabi.jp/images/photo/2023/camera/01.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* ビューポートの高さを使いたい場合 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black; /* 背景に対して文字が見やすいように色を設定 */
 }
