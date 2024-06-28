@@ -40,3 +40,14 @@ body {
     color: #FFFFFF;
     text-decoration: none;
   }  
+  .background-image {
+    background-image: url('https://itabashihanabi.jp/images/photo/2023/camera/01.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* ビューポートの高さを使いたい場合 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* 背景に対して文字が見やすいように色を設定 */
+}
