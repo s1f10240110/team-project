@@ -34,6 +34,7 @@ body {
 .content {
     width: 70%;
     background-color: #f7f7c8;
+    padding: 0 3px 0px 3px;
 }
 #top {
     position: fixed;
@@ -43,7 +44,7 @@ body {
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 12px;
-    background-color: #b9b5b5;
+    background-color: #424242;
     color: #FFFFFF;
     text-decoration: none;
 }  
@@ -58,17 +59,18 @@ body {
     text-align: center;
     color: white; /* 背景に対して文字が見やすいように色を設定 */
 }
+table{
+    width: 100%;
+}
 th {
     font-size: 0.8em;
     background-color: #cccccc;
-    max-width: 100%;
 }
 td {
     text-align: center;
     font-size: 0.8em;
     background-color: #eeeeee;
     padding: 20px;
-    max-width: 100%;
 }
 img {
     max-width: 100%;
@@ -93,12 +95,24 @@ h2 {
     background-color: #171b61;
     border-left: solid 5px #3128ad;
 }
+p{
+    padding-left: 20px;
+    font-weight: bold;
+}
 .chuui {
     font-family: serif;
     font-size: 18px;
     padding: 10px ;
     margin: 5px;
     color: #FFFFFF;
-    background-color: #611717;
-    border-left: solid 5px #ad2828;
+    background-color: #962c2c;
+    border-left: solid 5px #cc2222;
+}
+.chuuback{
+    background-color: #bfbf9a;
+    padding: 1px 0 10px 0;
+    margin-top: 15px;
+}
+.chuuback li{
+    font-weight: bold;
 }
