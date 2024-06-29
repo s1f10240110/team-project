@@ -9,7 +9,7 @@ body {
     width: 30%;
     padding: 5px;
     padding-top: 10px;
-    background-color: #cccccc;
+    background-color: #e6e4e4;
 }
 .sidebar ul {
     margin: 7px 0;
@@ -22,8 +22,9 @@ body {
     display: block;
     margin: 0px 0px 5px 0px;
     padding: 5px 5px 5px 5px;
-    border-right: solid 7px #808080;
     background-color: #EEEEEE;
+    border: solid #808080;
+    border-right: solid 7px #3e3d3d;
 }
 .sidebar a {
     color: #444444;
@@ -33,8 +34,10 @@ body {
 }
 .content {
     width: 70%;
+}
+.important{
     background-color: #f7f7c8;
-    padding: 0 3px 0px 3px;
+    padding: 10px 3px 10px 3px;
 }
 #top {
     position: fixed;
@@ -64,12 +67,12 @@ table{
 }
 th {
     font-size: 0.8em;
-    background-color: #cccccc;
+    background-color: #e2cd6c;
 }
 td {
     text-align: center;
     font-size: 0.8em;
-    background-color: #eeeeee;
+    background-color: #e1e1e1;
     padding: 20px;
 }
 img {
@@ -84,13 +87,13 @@ h1 {
     font-weight:bold;
     border-radius: 10px;
     padding: 7px 10px 5px 10px;
-    margin: 10px;
+    margin: 0px 5px 10px;
 }
 h2 {
     font-family: serif;
     font-size: 18px;
     padding: 10px ;
-    margin: 5px;
+    margin: 20px 0px;
     color: #FFFFFF;
     background-color: #171b61;
     border-left: solid 5px #3128ad;
@@ -109,10 +112,14 @@ p{
     border-left: solid 5px #cc2222;
 }
 .chuuback{
-    background-color: #bfbf9a;
-    padding: 1px 0 10px 0;
-    margin-top: 15px;
+    background-color: #2b2b2b;
+    padding: 1px 0 30px 0;
+    color: #ffffff;
 }
 .chuuback li{
-    font-weight: bold;
+    margin: 15px;
+}
+.sp th{
+    font-size: 0.8em;
+    background-color: #cfbc81;
 }
